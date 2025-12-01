@@ -11,7 +11,7 @@
         <module name="service-a" />
         <module name="service-b" />
       </profile>
-      <profile name="Annotation profile for SpringCloudCircuitBreaker" enabled="true">
+      <profile name="Annotation profile for retryAnnotations" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -19,9 +19,14 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
         <module name="SpringCloudCircuitBreaker" />
+        <module name="retry (1)" />
+        <module name="rate-limiter" />
+        <module name="retry-web" />
+        <module name="bulkhead" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="retry" target="1.8" />
       <module name="untitled" target="21" />
       <module name="untitled1" target="17" />
     </bytecodeTargetLevel>
@@ -29,7 +34,12 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringCloudCircuitBreaker" options="-parameters" />
+      <module name="bulkhead" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="rate-limiter" options="-parameters" />
+      <module name="retry" options="" />
+      <module name="retry (1)" options="-parameters" />
+      <module name="retry-web" options="-parameters" />
       <module name="service-a" options="-parameters" />
       <module name="service-b" options="-parameters" />
       <module name="untitled1" options="-parameters" />

@@ -11,10 +11,17 @@
         <option value="$PROJECT_DIR$/design-pattern/circuit-breaker/untitled/pom.xml" />
         <option value="$PROJECT_DIR$/design-pattern/circuit-breaker/untitled1/pom.xml" />
         <option value="$PROJECT_DIR$/design-pattern/circuit-breaker/SpringCloudCircuitBreaker/pom.xml" />
+        <option value="$PROJECT_DIR$/design-pattern/bulkhead/pom.xml" />
+        <option value="$PROJECT_DIR$/design-pattern/service-discovery/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/design-pattern/service-discovery/service-a/pom.xml" />
+        <option value="$PROJECT_DIR$/design-pattern/service-discovery/service-b/pom.xml" />
+        <option value="$PROJECT_DIR$/design-pattern/rate-limiter/pom.xml" />
+        <option value="$PROJECT_DIR$/design-pattern/retry/pom.xml" />
+        <option value="$PROJECT_DIR$/design-pattern/retry-web/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="ms-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
