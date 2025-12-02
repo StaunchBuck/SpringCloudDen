@@ -18,6 +18,9 @@
         <option value="$PROJECT_DIR$/design-pattern/rate-limiter/pom.xml" />
         <option value="$PROJECT_DIR$/design-pattern/retry/pom.xml" />
         <option value="$PROJECT_DIR$/design-pattern/retry-web/pom.xml" />
+        <option value="$PROJECT_DIR$/design-pattern/cache/pom.xml" />
+        <option value="$PROJECT_DIR$/design-pattern/time-limiter/pom.xml" />
+        <option value="$PROJECT_DIR$/Feign-Client/pom.xml" />
       </list>
     </option>
   </component>

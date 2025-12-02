@@ -1,0 +1,13 @@
+#resilience4j.timelimiter.instances.myTimeLimiter.timeout-duration=1s
+#resilience4j.timelimiter.instances.myTimeLimiter.cancel-running-future=true
+#resilience4j.timelimiter.configs.values.timeout-duration=2s
+
+resilience4j:
+  timelimiter:
+    instances:
+      myTimeLimiter:
+        timeoutDuration: 2s
+        cancelRunningFuture: true
+    configs:
+      values:
+        timeout-duration: 2s
