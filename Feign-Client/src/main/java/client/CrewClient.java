@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
         configuration = FeignClientConfig.class
 )
 public interface CrewClient {
+
     @GetMapping("/api/crew/{id}")
     String getCrew(@PathVariable String id);
 }
